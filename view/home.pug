@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+    
+block content
+        section#introSection
+            div Welcome to <br> Harry's Dance Academy 
+            div.small See the music, hear the dance 
+            //- img(src='/DanceProject/static/bg.jpg' alt='error')
+            //- img(src='/static/bg.jpg' alt='error')
+        
+        section#missionSection 
+          h2 Our Mission
+          div.card
+            h3 Dance Perfection 
+            div.card-box
+              div.card-img
+                img(src="https://pixabay.com/get/g570b82c1014a69ba8beb494676ffceec6e16560775fdf2b61afa1b045c761a4517016f6af739359f049551650b3b1fae9154ca5ad3271d2c1d27809b99f7eb9310b3821b8d535028ee81595d76873eae_1280.png", alt="error")
+              div.card-content
+                p Lorem ipsum dolor, sit amet consr adipisicing elit. Reprehenderit  
+
+          div.card
+            h3 Dance the way you Like 
+            div.card-box
+              div.card-img
+                img(src="https://pixabay.com/get/g9c9b01d864465efdad185b3d8a758f4d8b6bf6fc96e466dc55d911cb1cbdb1352d2353a2c9609705718e1093a76de50f87ca0e8c078ce5ed41b7f514240bc367a5c5e432e74e8620ea489e3a35b1ef41_1280.png", alt="error")
+              div.card-content
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam delectus dolor 
+        
+          div.card
+            h3 Expert teaching 
+            div.card-box              
+              div.card-img
+                img(src="https://pixabay.com/get/gcc5d580df0ae9a67fb41813dff9caad1dce32b3f7d102093d8c1f6ff34efcee166f2ea5923ea58ebcebd63c6fb77a8405cfad90dfbe3eb91b186c2a298f3cef2ad5b4abc61ed68f449b0a039f2e91aef_1280.png", alt="error")
+              div.card-content
+                p Lorem ipsum dolor sit amet consectetur adidem animi minima facere, libero repudiandae ipsum magni.
+        
+
+        section#sponsorsSection
+            h2 our sponsors
+            div#sponsors
+              img(src="https://pixabay.com/get/gb0b2c6a5a0e6dd4d89a2aa735eff112a032e43db6887d406ba5c145511f4dda76cdf8e39065dfacca917434230461698a666dcbddf6282f37fefe6c1d7ef76895d6528ef9da935623aed69dca20bc9ab_1280.png", alt="error" class="spImg")
+              img(src="https://pixabay.com/get/g4dc9864a26bb3703e500a3299d1bb49d416c0db503c2fbb8e39ba58253e8c6b7eb069729f671ba471d487d292ac06b73be9e191e439f80fb91c6aa79577eaecbc6ae92745690cc392a20b79404b0f43b_1280.png", alt="error" class="spImg")
+              img(src="https://pixabay.com/get/gaa2f0447f4cddeea7e3b7a7f8c290fece1e559a0143badd2837ff27963cdbb02dab59ba7bc6eeba37b920247fb40834978e84b01207a9e002e832c218b13468f95d3c163e689d2b6c6232bd9c9cee0e8_1280.png", alt="error" class="spImg")
+              img(src="https://pixabay.com/get/g7ca3eaf111f9b0f1c23ea63288e0d30c8d5776529a32efa82a9f68773b31618efa46ab786ac9121327b534ce0b5c8441f130b46b66e9d8942a4286d67bc3f30d3bf47b37cd6a4f4d94f7fbe26473f2fc_1280.png", alt="error" class="spImg")
